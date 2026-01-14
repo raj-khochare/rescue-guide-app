@@ -62,3 +62,6 @@ obj/
 
 # Misc
 *.orig
+
+
+app/src/main/java/com/mnp/resqme/util/Constants.kt
