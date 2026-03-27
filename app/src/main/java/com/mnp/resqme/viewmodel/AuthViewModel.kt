@@ -89,7 +89,7 @@ class AuthViewModel @Inject constructor(
                 _registerState.value = UiState.Error("Name cannot be empty")
                 false
             }
-            !ValidationUtils.isValidName(name) -> {
+            !ValidationUtils.   isValidName(name) -> {
                 _registerState.value = UiState.Error("Name must be at least 2 characters")
                 false
             }
